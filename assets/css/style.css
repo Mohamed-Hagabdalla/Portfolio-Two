@@ -1,11 +1,28 @@
+/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap');
 
 body {
     font-family: Lato, sans-serif;
-    
+    background: #fff;
+}
+
+header {
+    background: #13e9de;
+}
+
+h1 {
+    text-align: center;
 }
 
 #logo {
     font-family: Oswald, sans-serif;
     font-size: 40px;
+}
+
+.game-area {
+    background: #d2eaeb;
+}
+
+.btn {
+    align-content: center;
 }
