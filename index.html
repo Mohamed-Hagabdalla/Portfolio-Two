@@ -7,6 +7,9 @@
     <meta name="description" content="Maths Quiz consisting of addition, subtraction, multiplication and division">
     <meta name="keywords" content="maths quiz, addition, subtraction, multiplication, division">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Font Awesome icons-->
+    <script src="https://kit.fontawesome.com/749939eb6c.js" crossorigin="anonymous"></script>
+    
     <title>Maths Quiz</title>
 </head>
 <body>
@@ -16,10 +19,18 @@
 
      <div class="game-area">
         <div class="controls-area">
-            <button class="btn">+</button>
-            <button class="btn">-</button>
-            <button class="btn">x</button>
-            <button class="btn">/</button>
+            <button class="btn">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button class="btn">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class="btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="btn">
+                <i class="fas fa-divide"></i>
+            </button>
         </div>
 
         <!--This div will display the question for the user to answer-->
@@ -29,18 +40,17 @@
             <span id="operand2">1</span>
             <span>=</span>
             <input type="number">
-            <p>Enter Answer:</p>
         </div>
-        <button>Submit Answer</button>
+        <button id="submit-answer">Submit Answer</button>
      </div>
 
      <!--This div will keep track of the user's score-->
      <div class="score-area">
-            <p>Correct Answers:
+            <p class="scores">Correct Answers:
                 <span>0</span> 
             </p>
 
-            <p>Incorrect Answers:
+            <p class="scores">Incorrect Answers:
                 <span>0</span>
             </p>
     </div>

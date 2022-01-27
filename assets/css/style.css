@@ -28,11 +28,35 @@ header {
     height: 70px;
     margin-right: 80px;
     margin-left: 80px;
+    background-color: #fff;
+}
+
+.question-area {
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.question-area span {
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 100px;
 }
 
 input {
-    width: 100px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+}
+
+#submit-answer {
+    padding: 10px;
+}
+
+.scores {
+    border: 3px solid rgb(3, 66, 238);
 }
 
 .score-area p {
