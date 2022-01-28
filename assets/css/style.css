@@ -42,7 +42,7 @@ header {
     margin-top: 70px;
     margin-right: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 180px;
 }
 
 .question-area span {
@@ -59,16 +59,30 @@ input {
 }
 
 #submit-answer {
-    padding-left: 10px;
     background-color: #fff;
 }
 
-.scores {
-    border: 3px solid rgb(3, 66, 238);
+.answer-button {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+p.scores {
+    text-transform: uppercase;
 }
 
 .score-area p {
     display: inline-block;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#correct {
+    color: green;
+    font-weight: 700;
+}
+
+#incorrect {
+    color: red;
+    font-weight: 700;
 }
