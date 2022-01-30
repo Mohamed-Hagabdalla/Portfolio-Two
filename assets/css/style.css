@@ -74,6 +74,8 @@ body {
     background-color: #fff;
     margin-left: 12%;
     height: 40px;
+    font-weight: bold;
+    font-size: 100%;
 }
 
 .answer-button {
