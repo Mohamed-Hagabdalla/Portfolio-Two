@@ -16,7 +16,7 @@ body {
     background: #d2eaeb;
     margin-left: 20%;
     margin-right: 20%;
-    height: 600px;
+    height: 450px;
     border: 4px solid black;
 }
 
@@ -48,7 +48,7 @@ body {
     font-size: 30px;
 }
 
-input {
+#number {
     width: 70px;
     height: 70px;
     margin-left: 100px;
@@ -63,14 +63,11 @@ input {
     margin-top: 100px;
 }
 
-p.scores {
-    text-transform: uppercase;
-}
-
 .score-area p {
     display: inline-block;
     margin-left: 20%;
     margin-right: 20%;
+    text-transform: uppercase;
 }
 
 #correct {
@@ -85,4 +82,18 @@ p.scores {
     font-weight: 700;
     font-size: 25px;
     margin-top: 20px;
+}
+
+.user-submit {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#email {
+    width: 12%;
+}
+
+h2 {
+    color: #0000ff;
+    text-decoration: underline;
 }
