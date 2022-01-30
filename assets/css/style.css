@@ -33,6 +33,22 @@ body {
     background-color: #fff;
 }
 
+.fa-plus {
+    color: green;
+}
+
+.fa-minus {
+    color: red;
+}
+
+.fa-times {
+    color: blue;
+}
+
+.fa-divide {
+    color:  rgb(211, 183, 26);
+}
+
 .question-area {
     margin-top: 70px;
     margin-right: 20px;
@@ -56,6 +72,8 @@ body {
 
 #submit-answer {
     background-color: #fff;
+    margin-left: 12%;
+    height: 40px;
 }
 
 .answer-button {
