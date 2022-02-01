@@ -12,3 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 })
+
+function startGame() {
+    //Both variables below labelled number1 and number2 are random numbers between 1 and 15
+    let number1 = Math.floor(Math.random() * 15) + 1;
+    let number2 = Math.floor(Math.random() * 15) + 1;
+}
