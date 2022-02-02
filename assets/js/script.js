@@ -54,6 +54,10 @@ function calculateCorrectAnswer() {
     }
 }
 
+/**
+ * This function will check whether or not
+ * the user's answer is correct
+ */
 function checkAnswer() {
 
    let userAnswer = parseInt(document.getElementById("answer").value);
@@ -62,11 +66,32 @@ function checkAnswer() {
 
    if (answerCondition) {
        alert(`You got the answer right!`);
+       increaseCorrectScore();
    } else {
        alert(`Your answer was ${userAnswer}. The correct answer is ${calculatedAnswer[0]}!`);
+       increaseIncorrectScore();
    }
 
    startGame(calculatedAnswer[1]);
 
 }
 
+/**
+ * Increases the "correct answers" score by 1
+ */
+function increaseCorrectScore() {
+    
+    let currentScore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("correct").innerText = ++currentScore;
+
+}
+
+/**
+ * Increases the "incorrect answers" score by 1
+ */
+function increaseIncorrectScore() {
+    
+    let currentScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++currentScore;
+
+}
