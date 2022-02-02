@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let button of buttons) {
         button.addEventListener("click", function() {
             if (this.getAttribute("data-type") === "submit") {
-                alert("You clicked Submit Answer");
+                checkAnswer();
             } else {
                 let typeOfGame = this.getAttribute("data-type");
                 startGame(typeOfGame);
@@ -34,4 +34,39 @@ function additionQuestion(firstoperand, secondoperand) {
 
 }
 
+/**
+ * This function will store both values as first and second operands
+ * and then calculate the answer,
+ * depending on the operator displayed in the question. 
+ */
+function calculateCorrectAnswer() {
+
+    let firstoperand = parseInt(document.getElementById('first-operand').innerText);
+    let operator = document.getElementById('operator').innerText;
+    let secondoperand = parseInt(document.getElementById('second-operand').innerText);
+
+    if (operator === "+") {
+
+        return [firstoperand + secondoperand, "Add"]
+
+    } else {
+        alert(`Wrong operator ${operator}`);
+    }
+}
+
+function checkAnswer() {
+
+   let userAnswer = parseInt(document.getElementById("answer").value);
+   let calculatedAnswer = calculateCorrectAnswer();
+   let answerCondition = userAnswer === calculatedAnswer[0];
+
+   if (answerCondition) {
+       alert(`You got the answer right!`);
+   } else {
+       alert(`Your answer was ${userAnswer}. The correct answer is ${calculatedAnswer[0]}!`);
+   }
+
+   startGame(calculatedAnswer[1]);
+
+}
 
