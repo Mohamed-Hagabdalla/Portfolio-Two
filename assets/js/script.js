@@ -21,6 +21,8 @@ function startGame(typeOfGame) {
 
     if (typeOfGame === "Add") {
         additionQuestion(number1, number2);
+    } else if (typeOfGame === "Times") {
+        multiplicationQuestion(number1, number2);
     } else {
         alert(`Unknown game type: ${typeOfGame}`);
     }
@@ -34,10 +36,18 @@ function additionQuestion(firstoperand, secondoperand) {
 
 }
 
+function multiplicationQuestion(firstoperand, secondoperand) {
+    
+    document.getElementById('first-operand').textContent = firstoperand;
+    document.getElementById('operator').textContent = "x";
+    document.getElementById('second-operand').textContent = secondoperand;
+
+}
+
 /**
  * This function will store both values as first and second operands
  * and then calculate the answer,
- * depending on the operator displayed in the question. 
+ * depending on the operator in question. 
  */
 function calculateCorrectAnswer() {
 
@@ -46,9 +56,9 @@ function calculateCorrectAnswer() {
     let secondoperand = parseInt(document.getElementById('second-operand').innerText);
 
     if (operator === "+") {
-
-        return [firstoperand + secondoperand, "Add"]
-
+    return [firstoperand + secondoperand, "Add"];
+    } else if (operator === "x") {
+        return [firstoperand * secondoperand, "Times"];
     } else {
         alert(`Wrong operator ${operator}`);
     }
