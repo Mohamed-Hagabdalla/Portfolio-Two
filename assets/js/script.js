@@ -23,6 +23,8 @@ function startGame(typeOfGame) {
         additionQuestion(number1, number2);
     } else if (typeOfGame === "Times") {
         multiplicationQuestion(number1, number2);
+    } else if (typeOfGame === "Minus") {
+        subtractionQuestion(number1, number2);
     } else {
         alert(`Unknown game type: ${typeOfGame}`);
     }
@@ -44,6 +46,15 @@ function multiplicationQuestion(firstoperand, secondoperand) {
 
 }
 
+function subtractionQuestion(firstoperand, secondoperand) {
+    //Ternary operator "?" checks if the condition is true. There are two returns. One if the condition is true "firstoperand", and one if the condition is false "secondoperand".
+    document.getElementById('first-operand').textContent = firstoperand > secondoperand ? firstoperand : secondoperand;
+    document.getElementById('operator').textContent = "-";
+    //Ternary operator "?" checks if the condition is true. There are two returns. One if the condition is true "secondoperand", and one if the condition is false "firstoperand".
+    document.getElementById('second-operand').textContent = firstoperand > secondoperand ? secondoperand : firstoperand;
+
+}
+
 /**
  * This function will store both values as first and second operands
  * and then calculate the answer,
@@ -59,6 +70,8 @@ function calculateCorrectAnswer() {
     return [firstoperand + secondoperand, "Add"];
     } else if (operator === "x") {
         return [firstoperand * secondoperand, "Times"];
+    } else if (operator === "-") {
+        return [firstoperand - secondoperand, "Minus"];
     } else {
         alert(`Wrong operator ${operator}`);
     }
