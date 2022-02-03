@@ -11,9 +11,19 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         })
     }
+
+    document.getElementById("answer").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            checkAnswer();
+        }
+    })
+
 })
 
 function startGame(typeOfGame) {
+
+    //Empties the answer box every time the user submits their answer, so they do not have to do it after every question.
+    document.getElementById("answer").value = "";
 
     //Both variables below labelled number1 and number2 are random numbers between 1 and 15
     let number1 = Math.floor(Math.random() * 15) + 1;
