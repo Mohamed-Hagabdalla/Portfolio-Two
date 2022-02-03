@@ -1,6 +1,7 @@
 /* Google Font, url link obtained from the Google Fonts website */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap');
 
+/* Used Source Code for the base structure of the entire CSS code, but applied the values for my portfolio. */
 body {
     font-family: 'Lato', sans-serif;
     background: #fff;

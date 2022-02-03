@@ -1,3 +1,5 @@
+//Used Source Code from Code Institute, along with the "Love Maths Walkthrough Project" videos for the structure of the JavaScript code, but applied the values for my portfolio.
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 
