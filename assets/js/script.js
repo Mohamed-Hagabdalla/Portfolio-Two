@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 
+    //Event Listener that listens for the enter key, when pressed it will submit the user's answer. 
     document.getElementById("answer").addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
             checkAnswer();
@@ -29,12 +30,18 @@ function startGame(typeOfGame) {
     let number1 = Math.floor(Math.random() * 15) + 1;
     let number2 = Math.floor(Math.random() * 15) + 1;
 
+    //Variable number3 is also a random number, however it has been declared as a product of number1 and number2 so it is divisible by number4, which is equal to number2
+    let number3 = number1 * number2;
+    let number4 = number2;
+
     if (typeOfGame === "Add") {
         additionQuestion(number1, number2);
     } else if (typeOfGame === "Times") {
         multiplicationQuestion(number1, number2);
     } else if (typeOfGame === "Minus") {
         subtractionQuestion(number1, number2);
+    } else if (typeOfGame === "Divide") {
+        divisionQuestion(number3, number4);
     } else {
         alert(`Unknown game type: ${typeOfGame}`);
     }
@@ -65,6 +72,16 @@ function subtractionQuestion(firstoperand, secondoperand) {
 
 }
 
+function divisionQuestion(firstoperand, secondoperand) {
+
+    //Ternary operator "?" checks if the condition is true. There are two returns. One if the condition is true "firstoperand", and one if the condition is false "secondoperand".
+    document.getElementById('first-operand').textContent = firstoperand > secondoperand ? firstoperand : secondoperand;
+    document.getElementById('operator').textContent = "/";
+    //Ternary operator "?" checks if the condition is true. There are two returns. One if the condition is true "secondoperand", and one if the condition is false "firstoperand".
+    document.getElementById('second-operand').textContent = firstoperand > secondoperand ? secondoperand : firstoperand;
+
+}
+
 /**
  * This function will store both values as first and second operands
  * and then calculate the answer,
@@ -82,6 +99,8 @@ function calculateCorrectAnswer() {
         return [firstoperand * secondoperand, "Times"];
     } else if (operator === "-") {
         return [firstoperand - secondoperand, "Minus"];
+    } else if (operator === "/") {
+        return [firstoperand / secondoperand, "Divide"];
     } else {
         alert(`Wrong operator ${operator}`);
     }
