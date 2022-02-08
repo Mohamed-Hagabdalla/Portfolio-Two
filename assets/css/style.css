@@ -158,12 +158,12 @@ h2 {
 }
 
 .game {
-        margin-bottom: auto;
-        background: #d2eaeb;
-        margin-left: -1%;
-        height: 320px;
-        width: 101%;
-        border: 4px solid black;
+    margin-bottom: auto;
+    background: #d2eaeb;
+    margin-left: -1%;
+    height: 320px;
+    width: 93%;
+    border: 4px solid black;
 }
 
 .controls {
@@ -204,6 +204,7 @@ h2 {
 #submit-answer {
     background-color: #fff;
     margin-left: 12%;
+    margin-top: -4%;
     height: 40px;
     font-weight: bold;
     font-size: 100%;
@@ -221,7 +222,7 @@ h2 {
 }
 
 #email {
-    width: 57%;
+    width: 50%;
 }
 
 #send-email {
@@ -230,6 +231,17 @@ h2 {
     font-size: 90%;
     margin-top: 3%;
     margin-left: 10%;
+}
+
+#countdown {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 36px;
+    height: 51px;
+    width: 130px;
+    margin-left: 72%;
+    margin-top: -5%;
 }
 
 }
