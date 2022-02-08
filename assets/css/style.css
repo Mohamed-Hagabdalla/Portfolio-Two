@@ -151,10 +151,10 @@ h2 {
 @media (min-width: 320px) and (max-width: 480px) {
 
 #logo {
-        font-family: 'Oswald', sans-serif;
-        font-size: 33px;
-        text-align: center;
-        margin-top: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    text-align: center;
+    margin-top: auto;
 }
 
 .game {
@@ -258,21 +258,21 @@ h2 {
 
 .game {
     background: #d2eaeb;
-    margin-left: -1%;
+    margin-left: 6%;
     height: 450px;
-    width: 101%;
+    width: 84%;
     border: 4px solid black;
 }
 
 .controls {
-    margin-left: -50px;
+    margin-left: -67px;
     margin-top: -30px;
 }
 
 .btn {
     width: 70px;
     height: 70px;
-    margin-right: -60px;
+    margin-right: -79px;
     margin-left: 90px;
     margin-top: 50px;
     background-color: #fff;
@@ -284,19 +284,19 @@ h2 {
 }
 
 .questions span {
-    margin-right: -23px;
+    margin-right: -57px;
     margin-left: 100px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #answer {
     width: 70px;
-    height: 50px;
-    margin-left: 50px;
+    height: 60px;
+    margin-left: 80px;
 }
 
 .answer-button {
-    margin-left: 155px;
+    margin-left: 96px;
     margin-top: 100px;
 }
 
@@ -320,6 +320,10 @@ h2 {
     margin-top: 6%;
 }
 
+.user-submit p {
+    margin-left: 1%;
+}
+
 #email {
     width: 45%;
 }
@@ -329,6 +333,17 @@ h2 {
     font-weight: bold;
     font-size: 90%;
     margin-left: 0%;
+}
+
+#countdown {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 35px;
+    height: 70px;
+    width: 150px;
+    margin-left: 70%;
+    margin-top: -3%;
 }
 
 }
