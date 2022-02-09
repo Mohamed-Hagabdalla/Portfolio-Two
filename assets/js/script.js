@@ -15,7 +15,7 @@ function updateCountdown() {
         time = time < 0 ? 0 : time;
         countdownEl.innerHTML = `${minutes} : ${seconds}`; 
     }
-    else{
+    else {
         countdownEl.innerHTML = '0:00';
         alert(`Time's up`);
         clearInterval(timer);
