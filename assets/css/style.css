@@ -459,11 +459,11 @@ h2 {
 
 .game {
     background: #d2eaeb;
-    margin-left: -0.6%;
+    margin-left: 0%;
     margin-right: 20%;
     height: 450px;
     border: 4px solid black;
-    width: 100.6%;
+    width: 98%;
 }
 
 .controls {
@@ -516,9 +516,10 @@ h2 {
 
 .score p {
     display: inline-block;
-    margin-left: 41%;
+    margin-left: 26%;
     text-transform: uppercase;
 }
+
 
 .user-submit {
     text-align: center;
@@ -534,6 +535,17 @@ h2 {
     font-weight: bold;
     font-size: 90%;
     margin-left: 0%;
+}
+
+#countdown {
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    height: 70px;
+    width: 150px;
+    float: right;
+    margin-right: -1%;
+    margin-top: -2%;
 }
 
 }
