@@ -453,7 +453,7 @@ h2 {
 
 #logo {
     font-family: 'Oswald', sans-serif;
-    font-size: 51px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -523,7 +523,7 @@ h2 {
 
 .user-submit {
     text-align: center;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 #email {
@@ -556,9 +556,9 @@ h2 {
 
 #logo {
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 47px;
     text-align: center;
-}
+    }
 
 .game {
     background: #d2eaeb;
