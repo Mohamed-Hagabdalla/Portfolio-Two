@@ -13,6 +13,18 @@ body {
     text-align: center;
 }
 
+/* Code obtained from Youtube video, credited in the README file */
+#countdown {
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    height: 70px;
+    width: 150px;
+}
+
 .game {
     background: #d2eaeb;
     margin-left: 20%;
@@ -134,17 +146,6 @@ h2 {
     margin-left: 0%;
 }
 
-/* Code obtained from Youtube video, credited in the README file */
-#countdown {
-    background-color: white;
-    color: black;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    height: 70px;
-    width: 150px;
-}
 
 /* Media queries for responsiveness (mobile devices) */
 
@@ -157,17 +158,28 @@ h2 {
     margin-top: auto;
 }
 
+#countdown {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 36px;
+    height: 24px;
+    width: 120px;
+    margin-left: 73%;
+    margin-top: -1%;
+}
+
 .game {
     margin-bottom: auto;
     background: #d2eaeb;
     margin-left: -1%;
     height: 320px;
-    width: 93%;
+    width: 94%;
     border: 4px solid black;
 }
 
 .controls {
-    margin-left: 15%;
+    margin-left: 7%;
 }
 
 .btn {
@@ -180,8 +192,8 @@ h2 {
 }
 
 .questions {
-    margin-top: 34px;
-    margin-left: -4%;
+    margin-top: 38px;
+    margin-left: -2%;
 }
 
 .questions span {
@@ -218,7 +230,7 @@ h2 {
 .user-submit {
     text-align: center;
     margin-top: 6%;
-    margin-right: 10px;
+    margin-right: 35px;
 }
 
 #email {
@@ -231,17 +243,6 @@ h2 {
     font-size: 90%;
     margin-top: 3%;
     margin-left: 10%;
-}
-
-#countdown {
-    background-color: white;
-    color: black;
-    display: inline-block;
-    font-size: 36px;
-    height: 51px;
-    width: 130px;
-    margin-left: 72%;
-    margin-top: -5%;
 }
 
 }
