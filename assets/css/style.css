@@ -456,28 +456,39 @@ h2 {
 
 #logo {
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-size: 49px;
     text-align: center;
+    margin-top: 6%;
+}
+
+#countdown {
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    height: 70px;
+    width: 150px;
+    float: right;
+    margin-right: 10%;
+    margin-top: -7%;
 }
 
 .game {
     background: #d2eaeb;
-    margin-left: 0%;
-    margin-right: 20%;
+    margin-left: 1%;
     height: 450px;
     border: 4px solid black;
-    width: 98%;
+    width: 86%;
 }
 
 .controls {
-    margin-left: 46px;
+    margin-left: 0px;
 }
 
 .btn {
     width: 70px;
     height: 70px;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 15px;
+    margin-left: 11%;
     margin-top: 50px;
     background-color: #fff;
 }
@@ -486,8 +497,8 @@ h2 {
     margin-top: 70px;
     margin-right: 20px;
     margin-bottom: 20px;
-    margin-left: 168px;
-    font-size: xx-large;
+    margin-left: 27px;
+    font-size: large;
 }
 
 .questions span {
@@ -505,8 +516,8 @@ h2 {
 }
 
 .answer-button {
-    margin-left: 370px;
-    margin-top: 60px;
+    margin-left: 300px;
+    margin-top: 65px;
 }
 
 #submit-answer {
@@ -519,14 +530,14 @@ h2 {
 
 .score p {
     display: inline-block;
-    margin-left: 26%;
+    margin-left: 1%;
+    margin-right: 37%;
     text-transform: uppercase;
 }
 
-
 .user-submit {
     text-align: center;
-    margin-top: 3%;
+    margin-top: 0%;
 }
 
 #email {
@@ -538,17 +549,6 @@ h2 {
     font-weight: bold;
     font-size: 90%;
     margin-left: 0%;
-}
-
-#countdown {
-    background-color: white;
-    color: black;
-    font-size: 50px;
-    height: 70px;
-    width: 150px;
-    float: right;
-    margin-right: -1%;
-    margin-top: 2%;
 }
 
 }
