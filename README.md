@@ -1,108 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Maths Quiz
 
-Welcome Mohamed Hagabdalla,
+[View the live project here!](https://mohamed-hagabdalla.github.io/Portfolio-Two/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Maths Quiz** is a website aimed at those who are interested in improving their fitness by joining a gym. In the first section, the user can find a promotion offer, benefits of joining, a list of equipment offered and opening hours. There is an about us section, which provides the user with more information about what they can expect by joining, accompanied by images of existing members in the gym. The final section is the contact section, in which the user can provide their full name and email address and they will be contacted to discuss any matters further.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+There are a few features that enhance the user's experience. For example, a navigation bar, images, contact form and a footer.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Navigation Bar
 
-`python3 -m http.server`
+- This is located at the top right hand corner of the page.
+- They navigate the user to different sections of the page. For instance, the 'About Us' section and the 'Contact' section.
+- Enables them to view different sections on the webpage without having to manually scroll each time.
 
-A blue button should appear to click: _Make Public_,
+### Images
 
-Another blue button should appear to click: _Open Browser_.
+- Images have been included to give the user a view of the gym and how training sessions will look.
+- Shows them the experience of existing members.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Contact Form
 
-A blue button should appear to click: _Make Public_,
+- This form allows users to provide their contact details to discuss any further enquiries before purchasing a membership.
+- Allows them to ensure they are willing to purchase a membership, as they will be contacted.
 
-Another blue button should appear to click: _Open Browser_.
+### Footer
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- This contains links to social media sites for **The GYM** that open in a new tab, so the user does not have to go back to the website everytime.
+- Encourages the user to keep up to date with the latest news and offers.
 
-To log into the Heroku toolbelt CLI:
+## Testing
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The navigation bar on the top right hand corner of the website was tested to ensure each link navigated to the correct section of the website. There were 3 links and each one navigates to a different section of the website. Each link navigates to its section with no problems.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The website was tested for responsiveness for different screen sizes. One problem that occurred was the appearence of the website on the different devices. It did not appear exactly how it was meant to appear.
 
-------
+## Validator Testing
 
-## Release History
+To ensure the HTML and CSS codes ran smoothly and had no errors, they were both tested for validation. Testing for each code and more information on how they were tested are explained below in more detail.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+1. HTML
+-  No errors were found when running the HTML code on the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+2. CSS
+- No errors were found when running the CSS code on the [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Unfixed Bugs
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+One unfixed bug was the responsiveness of the website on different devices using CSS3. The website did not appear exactly how it was intended. This was due to the layout of the website. The website could have had a much better layout, which could have possibly made it easier to make responsive.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Deployment
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The website was deployed to GitHub pages. To successfully deploy a website, follow the steps below:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+1. Ensure the relevant respository is loaded and select the settings tab.
+2. Navigate to the pages tab (the second-last option on the left hand side).
+3. Select the main branch, the root folder and click save.
+4. Refresh the page and a message should appear, telling you that your site has been published.
+5. The website has successfuly been deployed. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The link to the live website can be found [here](https://mohamed-hagabdalla.github.io/Portfolio-One/)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Credits
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Below, references to any tools used as help have been listed below.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Content
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Steps taken to include CSS Media Queries were taken from this [YouTube Tutorial](https://www.youtube.com/watch?v=2KL-z9A56SQ)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- The black background of the About Us section was taken from the [PureGym Website](https://www.puregym.com/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Media 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- The images used for this website were taken from [Pexels](https://www.pexels.com/)
 
-------
+## Acknowledgements
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- I would like to thank my mentor for his full support and help throughout this project.
