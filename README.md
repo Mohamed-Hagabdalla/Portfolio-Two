@@ -64,3 +64,41 @@ The website was deployed to GitHub pages. To successfully deploy a website, foll
 
 The link to the live website can be found [here](https://mohamed-hagabdalla.github.io/Portfolio-Two/)
 
+## Credits
+
+Below, references to any code and video tutorials used as help have been listed below.
+
+### Code
+
+- The base structure of the HTML code of the project was used from [Source Code](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/index.html)
+
+- The base structure of the CSS code of the project was used from [Source Code](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/css/style.css)
+
+The base structure of the JavaScript code of the project was used from [Source Code](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js)
+
+- Using [Font Awesome Icons](https://fontawesome.com/icons) in HTML 
+
+- Changing size of [Font Awesome Icons](https://fontawesome.com/v5.15/how-to-use/on-the-web/styling/sizing-icons)
+
+- Icons for the 4 Maths operations and their [HTML code](https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=maths)
+
+- [Styling Font Awesome Icons](https://stackoverflow.com/questions/12272372/how-to-style-icon-color-size-and-shadow-of-font-awesome-icons)
+
+- For the body of the page, [Google Fonts was used](https://fonts.google.com/)
+
+- To send emails, [EmailJS was used](https://www.emailjs.com)
+
+- Script code used to enable function of sending emails [can be found here](https://dashboard.emailjs.com/admin/integration/browser)
+
+### Video Tutorials
+
+- Using Font Awesome icons in HTML [Video Tutorial](https://www.youtube.com/watch?v=wiw68Y-hPlA)
+
+- JavaScript and CSS Code for the Countdown Timer [Video Tutorial](https://www.youtube.com/watch?v=x7WJEmxNlEs)
+
+- Sending Emails from JavaScript [Video Tutorial](https://www.youtube.com/watch?v=x7Ewtay0Q78)
+
+## Acknowledgements
+
+- I would like to thank my mentor for his full support and help throughout this project.
+
