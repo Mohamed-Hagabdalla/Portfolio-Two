@@ -32,7 +32,7 @@ function sendMail(params) {
     emailjs.send('service_x4xjj6c', 'template_1hy8xhg', tempParams)
     .then(function(res){
         console.log("success", res.status);
-    })
+    });
 }
 
 //Used Source Code from Code Institute, along with the "Love Maths Walkthrough Project" videos for the structure of the JavaScript code, but applied the values for my portfolio.
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 let typeOfGame = this.getAttribute("data-type");
                 startGame(typeOfGame);
             }
-        })
+        });
     }
 
     //Event Listener that listens for the enter key, when pressed it will submit the user's answer. 
@@ -56,9 +56,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (event.key === "Enter") {
             checkAnswer();
         }
-    })
+    });
 
-})
+});
 
 function startGame(typeOfGame) {
 
