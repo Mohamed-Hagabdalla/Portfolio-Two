@@ -28,3 +28,19 @@ There are a few features that enhance the user's experience. For example, a coun
 - Below the seciton for updating the user's scores, there is an option for the user to have their results sent to them via email.
 - Allows them to have their results stored safely in their inbox, in case they ever need to refer back to their scores.
 - This can help them keep track of numerous attempts at the quiz, without having to remember the score of every game they have played. 
+
+## Testing
+
+The navigation bar on the top right hand corner of the website was tested to ensure each link navigated to the correct section of the website. There were 3 links and each one navigates to a different section of the website. Each link navigates to its section with no problems.
+
+The website was tested for responsiveness for different screen sizes. One problem that occurred was the appearence of the website on the different devices. It did not appear exactly how it was meant to appear.
+
+## Validator Testing
+
+To ensure the HTML, CSS and JavaScript codes ran smoothly and had no errors, they were each tested for validation. Testing for each code and more information on how they were tested are explained below in more detail.
+
+1. HTML
+-  No errors were found when running the HTML code on the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+
+2. CSS
+- No errors were found when running the CSS code on the [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
