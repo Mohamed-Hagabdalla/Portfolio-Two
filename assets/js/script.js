@@ -23,6 +23,18 @@ function updateCountdown() {
 
 }
 
+// Code obtained from Youtube video, credited in the README file
+function sendMail(params) {
+    var tempParams = {
+        to_name: document.getElementById("email").value
+    };
+
+    emailjs.send('service_x4xjj6c', 'template_1hy8xhg', tempParams)
+    .then(function(res){
+        console.log("success", res.status);
+    })
+}
+
 //Used Source Code from Code Institute, along with the "Love Maths Walkthrough Project" videos for the structure of the JavaScript code, but applied the values for my portfolio.
 
 document.addEventListener("DOMContentLoaded", function() {

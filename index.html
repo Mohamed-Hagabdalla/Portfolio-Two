@@ -10,6 +10,14 @@
     <!--Font Awesome icons, source was obtained from the Font Awesome website-->
     <script src="https://kit.fontawesome.com/749939eb6c.js" crossorigin="anonymous"></script>
     
+    <!--Following script code obtained from the integration tab of the EmailJS website-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_M2KUV8unOOF9G0cbfeRNP");
+    })();
+    </script>   
+    
     <title>Maths Quiz</title>
 </head>
 
@@ -66,7 +74,7 @@
         <p>Enter your Email Address below if you would like us to send your quiz scores!</p>
         <label for="email">Email Address:</label>
         <input type="email" name="email" id="email">
-        <button id="send-email">Send Email</button>
+        <button id="send-email" onclick="sendMail()">Send Email</button>
     </div>
 
     <script src="assets/js/script.js"></script>
