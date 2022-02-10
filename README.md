@@ -4,6 +4,9 @@
 
 **Maths Quiz** is an interactive website that allows users to challenge their Mathematical ability by answering a range of different Maths questions. The questions include: addition, subtraction, multiplication and division. The website is mainly targetted at those who are approximately aged 10 and younger, as the questions are basic Maths questions. However, it is recommended for all ages, if anyone would like to improve their Maths skills.
 
+![Responsive image of the website](/assets/images/iPhone responsiveness.png)
+![Responsive image of the website](/assets/images/iPad responsiveness.png)
+
 ## Features
 
 There are a few features that enhance the user's experience. For example, a countdown timer, updating the user's scores and an option to get their results via email.
