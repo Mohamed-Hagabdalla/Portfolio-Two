@@ -44,3 +44,23 @@ To ensure the HTML, CSS and JavaScript codes ran smoothly and had no errors, the
 
 2. CSS
 - No errors were found when running the CSS code on the [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+3. JavaScript
+- No errors were found when running the JavaScript code on the [JavaScript Validation Service](https://jshint.com/)
+
+## Unfixed Bugs
+
+One unfixed bug was ending the game after a certain number quesitons had been answered and restarting the game when the timer ends. This was due to poor research into the necessary JavaScript code required to run this function. Also, the website is responsive. However, it does not have a perfect layout on all devices. More time and research invested into CSS responsiveness could possible fix this issue. 
+
+## Deployment
+
+The website was deployed to GitHub pages. To successfully deploy a website, follow the steps below:
+
+1. Ensure the relevant respository is loaded and select the settings tab.
+2. Navigate to the pages tab (located on the left hand side, near the end of the list of tabs).
+3. Select the main branch, the root folder and click save.
+4. Wait for a few minutes, refresh the page and a message should appear, telling you that your site has been published.
+5. The website has successfuly been deployed. 
+
+The link to the live website can be found [here](https://mohamed-hagabdalla.github.io/Portfolio-Two/)
+
