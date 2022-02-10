@@ -4,26 +4,27 @@
 
 **Maths Quiz** is an interactive website that allows users to challenge their Mathematical ability by answering a range of different Maths questions. The questions include: addition, subtraction, multiplication and division. The website is mainly targetted at those who are approximately aged 10 and younger, as the questions are basic Maths questions. However, it is recommended for all ages, if anyone would like to improve their Maths skills.
 
-![Images of the website for responsiveness](/assets/images/iPad responsiveness.png)
-![Images of the website for responsiveness](/assets/images/iPhone responsiveness.png)
+![Image of the website for responsiveness](/assets/images/iPad responsiveness.png)
+![Image of the website for responsiveness](/assets/images/iPhone responsiveness.png)
 
-### Navigation Bar
+## Features
 
-- This is located at the top right hand corner of the page.
-- They navigate the user to different sections of the page. For instance, the 'About Us' section and the 'Contact' section.
-- Enables them to view different sections on the webpage without having to manually scroll each time.
+There are a few features that enhance the user's experience. For example, a countdown timer, updating the user's scores and an option to get their results via email.
 
-### Images
+### Countdown Timer
 
-- Images have been included to give the user a view of the gym and how training sessions will look.
-- Shows them the experience of existing members.
+- This is located above the game area, to the right.
+- This allows the user to see how much time is left for them to answer the questions.
+- Enables them to know how long they have spent on the quiz by simply looking above the game area, rather than having to time themselves.
 
-### Contact Form
+### Updating the user's scores
 
-- This form allows users to provide their contact details to discuss any further enquiries before purchasing a membership.
-- Allows them to ensure they are willing to purchase a membership, as they will be contacted.
+- Below the game area is a section that counts the number of correct ans incorrect answers they have inputted.
+- The number of correct answers is shown in green and the number of incorrect answers is shown in red.
+- This tells the user the exact number of correct and incorrect answers and gives them an indication of how they are doing, rather than the user having to keep track of their answers.
 
-### Footer
+### Results sent via email
 
-- This contains links to social media sites for **The GYM** that open in a new tab, so the user does not have to go back to the website everytime.
-- Encourages the user to keep up to date with the latest news and offers.
+- Below the seciton for updating the user's scores, there is an option for the user to have their results sent to them via email.
+- Allows them to have their results stored safely in their inbox, in case they ever need to refer back to their scores.
+- This can help them keep track of numerous attempts at the quiz, without having to remember the score of every game they have played. 
